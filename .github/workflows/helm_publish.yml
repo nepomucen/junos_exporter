@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - test/helm-workflowsain    # TODO: change it back later to main
     paths:
       - helm/junosexporter/Chart.yaml
 
